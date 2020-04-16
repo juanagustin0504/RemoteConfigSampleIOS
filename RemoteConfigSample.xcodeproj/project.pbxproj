@@ -13,7 +13,8 @@
 		76B23BC6244574BC00EFA149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BC4244574BC00EFA149 /* Main.storyboard */; };
 		76B23BC8244574BF00EFA149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BC7244574BF00EFA149 /* Assets.xcassets */; };
 		76B23BCB244574BF00EFA149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BC9244574BF00EFA149 /* LaunchScreen.storyboard */; };
-		76B23BD32445750C00EFA149 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BD22445750C00EFA149 /* GoogleService-Info.plist */; };
+		76B23BD72445879000EFA149 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BD62445879000EFA149 /* RemoteConfigDefaults.plist */; };
+		76B23BDB2445940D00EFA149 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B23BDA2445940D00EFA149 /* GoogleService-Info.plist */; };
 		B7F89C4272D19EB98A458D3D /* Pods_RemoteConfigSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3FE2750160E62F6E36E35F /* Pods_RemoteConfigSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +29,8 @@
 		76B23BC7244574BF00EFA149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B23BCA244574BF00EFA149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76B23BCC244574BF00EFA149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B23BD22445750C00EFA149 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76B23BD62445879000EFA149 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		76B23BDA2445940D00EFA149 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F3FE2750160E62F6E36E35F /* Pods_RemoteConfigSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfigSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,7 +67,7 @@
 		76B23BBD244574BC00EFA149 /* RemoteConfigSample */ = {
 			isa = PBXGroup;
 			children = (
-				76B23BD22445750C00EFA149 /* GoogleService-Info.plist */,
+				76B23BDA2445940D00EFA149 /* GoogleService-Info.plist */,
 				76B23BBE244574BC00EFA149 /* AppDelegate.swift */,
 				76B23BC0244574BC00EFA149 /* SceneDelegate.swift */,
 				76B23BC2244574BC00EFA149 /* ViewController.swift */,
@@ -73,6 +75,7 @@
 				76B23BC7244574BF00EFA149 /* Assets.xcassets */,
 				76B23BC9244574BF00EFA149 /* LaunchScreen.storyboard */,
 				76B23BCC244574BF00EFA149 /* Info.plist */,
+				76B23BD62445879000EFA149 /* RemoteConfigDefaults.plist */,
 			);
 			path = RemoteConfigSample;
 			sourceTree = "<group>";
@@ -155,7 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B23BCB244574BF00EFA149 /* LaunchScreen.storyboard in Resources */,
-				76B23BD32445750C00EFA149 /* GoogleService-Info.plist in Resources */,
+				76B23BD72445879000EFA149 /* RemoteConfigDefaults.plist in Resources */,
+				76B23BDB2445940D00EFA149 /* GoogleService-Info.plist in Resources */,
 				76B23BC8244574BF00EFA149 /* Assets.xcassets in Resources */,
 				76B23BC6244574BC00EFA149 /* Main.storyboard in Resources */,
 			);
@@ -365,6 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moonift.RemoteConfigSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -385,6 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moonift.RemoteConfigSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
